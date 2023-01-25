@@ -17,7 +17,7 @@
     ></script>
     <title>Bootstrap-Web</title>
   </head>
-  <body>
+  <body data-bs-spy="scroll" data-bs-target=".navbar">
     <nav class="nav navbar-expand-sm text-bg-dark fixed-top">
       <div class="container-fluid row">
         <a href="#" class="navbar-brand col-sm-9 px-5 pt-2">My logo</a>
@@ -64,7 +64,46 @@
           </li>
         </ul>
       </section>
-      <section>works</section>
+      <section class="container">
+        <article class="card">
+        <div class="d-flex">
+          <div class="card-body col-sm-6">
+            <img src="img/tonic.svg" alt="Project image" class="container-fluid">
+          </div>
+          <div class="card-body col-sm-6">
+            <p class="h1 pb-3">Tonic</p>
+            <ul class="list-unstyled d-flex">
+              <li class="pe-1">
+                <a href="#" class="text-decoration-none">
+                  <p class="text-dark fw-bold">CANOPY</p>
+              </a>
+            </li>
+            <li class="pe-1">
+              <img src="img/dot.png" alt="">
+            </li>
+            <li class="pe-1">
+              <a href="#" class="text-decoration-none">
+                <p class="text-dark">Back end dev</p>
+              </a>
+            </li>
+            <li class="pe-1">
+              <img src="img/dot.png" alt="">
+            </li>
+            <li class="pe-1">
+              <a href="#" class="text-decoration-none">
+                <p class="text-dark">2015</p>
+              </a>
+            </li>
+            </ul>
+            <p class="fs-5">A daily selection of privately personalized reads; no accounts or sign-ups required.</p>
+            <span class="badge rounded-pill bg-info">HTML</span>
+            <span class="badge rounded-pill bg-info">CSS</span>
+            <span class="badge rounded-pill bg-info">Javascript</span></br>
+            <button type="button" class="btn btn-primary mt-3">See project</button>
+          </div>
+        </div>
+        </article>
+      </section>
     </main>
   </body>
 </html>
