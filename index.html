@@ -17,7 +17,7 @@
     ></script>
     <title>Bootstrap-Web</title>
   </head>
-  <body data-bs-spy="scroll" data-bs-target=".navbar">
+  <body data-bs-spy="scroll" data-bs-target=".navbar" class="bg-light">
     <nav class="nav navbar-expand-sm text-bg-dark fixed-top">
       <div class="container-fluid row">
         <a href="#" class="navbar-brand col-sm-9 px-5 pt-2">My logo</a>
@@ -35,7 +35,7 @@
       </div>
     </nav>
     <main class="container-fluid">
-      <section class="container my-5 p-5 d-flex flex-column align-items-center">
+      <section class="container my-5 p-5 d-flex flex-column align-items-center bg-white">
         <h1 class="align-self-start mt-5 pt-5">
           I’m Alexandra Glad to see you!
         </h1>
@@ -103,6 +103,49 @@
           </div>
         </div>
         </article>
+      </section>
+      <section class="row mt-5 bg-white">
+        <div class="col-5 m-5">
+          <h1>About Myself</h1>
+            <p>Hello I’m a software developer! I can help you build a product , feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, don’t hestiate to contact me.</p>
+            <a href="#" class="align-self-start">LET’S CONNECT</a>
+        <ul class="list-unstyled d-flex align-self-start mt-2">
+          <li class="mr-2">
+            <a href="#"><img src="./img/twitter.svg" alt="twitter" /></a>
+          </li>
+          <li class="mx-2">
+            <a href="#"><img src="./img/linkedin.svg" alt="linkedin" /></a>
+          </li>
+          <li class="mx-2">
+            <a href="#"><img src="./img/M.svg" alt="m" /></a>
+          </li>
+          <li class="mx-2">
+            <a href="#"><img src="./img/github.svg" alt="github" /></a>
+          </li>
+          <li class="mx-2">
+            <a href="#"><img src="./img/V.svg" alt="v" /></a>
+          </li>
+        </ul>
+        </div>
+        <div class="col-5 m-5">
+          <h2 type="button" data-bs-toggle="collapse" data-bs-target="#langs" class="row">Languages</h2>
+          <div id="langs" class="collapse">
+            <span class="badge bg-light me-2 pe-5">
+              <img src="./img/js.png" alt="">
+              <p class="text-body my-3">JavaScript</p>
+            </span>
+            <span class="badge bg-light  me-2 pe-5">
+              <img src="./img/html.png" alt="">
+              <p class="text-body my-3">HTML</p>
+            </span>
+            <span class="badge bg-light  me-2 pe-5">
+              <img src="./img/css.png" alt="">
+              <p class="text-body my-3">CSS</p>
+            </span>
+          </div>
+            <h2 type="button" data-bs-toggle="collapse" data-bs-target="#demo" class="row">frameworks</h2>
+            <h2 type="button" data-bs-toggle="collapse" data-bs-target="#demo" class="row">skills</h2>
+        </div>
       </section>
     </main>
   </body>
